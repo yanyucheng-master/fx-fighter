@@ -1,0 +1,15 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary work and caches
+work/
+.cache/
+node_modules/
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
